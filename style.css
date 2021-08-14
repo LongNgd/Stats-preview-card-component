@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body{
+    background-color: hsl(233, 47%, 7%);
+    display: flexbox;
+    align-items: center;
+    font-size: 15px;
+}
+
+.card{
+    background-color: hsl(244, 38%, 16%);
+    margin: auto;
+    margin-top: 68px;
+    width: 90vw;
+    border-radius: 10px;
+    overflow: hidden;
+    display: flexbox;
+}
+
+img{
+    width: 100%;
+    opacity: 40%;
+}
+
+h1, h2{
+    color: hsl(0, 0%, 100%);
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+}
+
+h1{
+    font-size: 2em;
+    padding: 6%;
+    margin-top: .8em;
+}
+
+h2{
+    font-size: 1.6em;
+}
+
+span{
+    color:hsl(277, 64%, 61%);
+}
+
+#main-paragraph{
+    color: hsla(0, 0%, 100%, 0.76);
+    text-align: center;
+    font-family: 'Lexend Deca', sans-serif;
+    padding: 0 6%;
+    margin-top: .5em;
+    margin-bottom: 2em;
+}
+
+#stat-heading{
+    color: hsla(0, 0%, 100%, 0.6);
+    text-align: center;
+    font-family: 'Lexend Deca', sans-serif;
+    margin-bottom: 2em;
+}
